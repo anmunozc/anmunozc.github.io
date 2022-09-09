@@ -1,0 +1,52 @@
+.nav-enlace{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration:none; 
+}
+.nav-enlace:hover{
+    background: rosybrown;
+}
+
+nav{
+    padding: 10px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.columna{
+          background-color: #C7D36F;
+          padding: 100px;
+          width: 50%;
+          margin: 10%;
+        }
+
+.challenges{
+    display: flex;
+}
+
+.btnMenu{
+    background-color: rosybrown;
+    color: rgb(14, 83, 230);
+    padding: 10px 10;
+    border: 2px solid #FFFFFF;
+    display: none;
+    }
+
+
+/* ADAPTABILIDAD */
+@media(max-width:600px){
+    nav{
+     flex-direction: column;
+    }
+    .challenges{
+        flex-direction: column;
+
+    }
+    .btnMenu{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+}
+
