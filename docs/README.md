@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Andrea</h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anmunozc&label=Profile%20views&color=0e75b6&style=flat" alt="anmunozc" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=anmunozc" alt="anmunozc" /></a> </p>
-
 <p align="left"> <a href="https://twitter.com/anmunoz_c" target="blank"><img src="https://img.shields.io/twitter/follow/anmunoz_c?logo=twitter&style=for-the-badge" alt="anmunoz_c" /></a> </p>
 
 - 🔭 I’m currently working on **Freelance**
@@ -29,4 +27,6 @@
 
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=anmunozc&show_icons=true&locale=en&layout=compact" alt="anmunozc" /></p>
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=anmunozc" alt="anmunozc" /></a> </p>
 
