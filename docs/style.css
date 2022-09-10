@@ -41,13 +41,13 @@ nav{
     color: #333;
     border: 1px solid #333;
     margin: 5% auto 5% 0;
-    padding: 10px;
+    padding: 5px;
     border-radius: 15px;
-    box-shadow: 5px 5px #FFD8A9;
+    box-shadow: 5px 5px #ddb591;
     width: 500px;
-    height: 50%;
+    height: 100%;
     box-sizing: border-box;
-    }
+}
 
 .btnMenu{
     background-color: #967E76;
