@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>GitHub Pages AMC</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="script.js"></script>
     
@@ -19,15 +22,25 @@
 
       <nav>
         <!-- panel de navegacion -->
-        <button class="btnMenu" onclick="accion()"> Menú </button>
-        <a href="#" class="nav-enlace desaparece">Challenges</a>
-        <a href="#" class="nav-enlace desaparece">Ejercicios</a>
-        <a href="#" class="nav-enlace desaparece">Contacto</a>
+          <button class="btnMenu" onclick="accion()"> Menú </button>
+          <a href="#" class="nav-enlace desaparece">Inicio</a>
+          <a href="#" class="nav-enlace desaparece">Portafolio</a>
+          <a href="#" class="nav-enlace desaparece">Contacto</a>
       </nav>
 
-      <section class="challenges">  
-        <p class="columna">Challenges</p>
-        <p class="columna">Ejercicios</p>
+      <section class="container flex text-center">  
+
+        <div class="columna">
+            <h2>Challenges</h2>
+            <hr> <!-- linea para separar-->
+            <p>Desafios planteados por diferentes Creadores de Contenido</p>
+        </div>
+        
+        <div class="columna">
+          <h2>Ejercicios</h2>
+          <hr> <!-- linea para separar-->
+          <p>Ejercicios de Programacion</p>
+        </div>
         
       
       </section>
@@ -37,7 +50,10 @@
 </body>
 
 <footer>
-By AMC
-</footer>
+  
+  <p> Diseñado por AMC ~ 2022 <img class="bike" src="imagenes/bike.png" alt="bike"></p>
+  
+  
+  </footer>
 
 </html>

@@ -1,10 +1,23 @@
+header{
+    background-color: #F1A661;
+}
+
+body{ 
+    margin: 0;
+    background-color: #FFD8A9;
+    font-family: 'Source Serif Pro', serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .nav-enlace{
     display: inline-block;
     padding: 10px 30px;
     text-decoration:none; 
 }
 .nav-enlace:hover{
-    background: rosybrown;
+    background: #90B77D;
 }
 
 nav{
@@ -13,40 +26,62 @@ nav{
     display: flex;
     justify-content: space-around;
 }
-.columna{
-          background-color: #C7D36F;
-          padding: 100px;
-          width: 50%;
-          margin: 10%;
-        }
 
-.challenges{
+.flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
+.text-center{
+    text-align: center;
+}
+
+.columna{
+    background: #FDEEDC;
+    color: #333;
+    border: 1px solid #333;
+    margin: 5% auto 5% 0;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px #FFD8A9;
+    width: 500px;
+    height: 50%;
+    box-sizing: border-box;
+    }
+
 .btnMenu{
-    background-color: rosybrown;
+    background-color: #967E76;
     color: rgb(14, 83, 230);
     padding: 10px 10;
     border: 2px solid #FFFFFF;
     display: none;
     }
 
+footer{
+    font-size: 14px;
+    font-style: bold;
+    text-align: center;
+    margin-top: auto;
+    background-color: #F1A661;
+   }
+
+.bike{
+    width: 2%;
+    height: 1%;
+}
 
 /* ADAPTABILIDAD */
 @media(max-width:600px){
     nav{
-     flex-direction: column;
-    }
-    .challenges{
         flex-direction: column;
-
     }
+    
     .btnMenu{
         display: inline-block;
     }
     .desaparece{
         display: none;
     }
+    
 }
 
